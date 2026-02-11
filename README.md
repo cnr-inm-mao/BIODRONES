@@ -90,5 +90,29 @@ BIODRONES is developed within the
 **MAORG-CNR-INM** organization.
 
 Repository structure:
+MAORG-CNR-INM
+├── BIODRONES (this repository)
+├── biodrones-site
+├── biodrones-manta
+├── biodrones-optimization
+├── biodrones-data
+
+
+---
+
+## Contact
+
+For scientific collaboration or project information:
+
+Matteo Diez, Andrea Serani  
+CNR-INM – Institute of Marine Engineering  
+Rome, Italy
+
+---
+
+## License
+
+Unless otherwise specified in sub-repositories, licensing is defined at repository level.
+
 
 
