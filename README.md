@@ -110,7 +110,7 @@ MAORG-CNR-INM
 
 For scientific collaboration or project information:
 
-Matteo Diez, Andrea Serani  
+Matteo Diez
 CNR-INM – Institute of Marine Engineering  
 Rome, Italy
 
