@@ -3,51 +3,74 @@
 
 ---
 
-## Overview
+## 🌊 Overview
 
-BIODRONES is a research project focused on the simulation-based design and optimization of bio-inspired autonomous underwater gliders (AUGs).  
+**BIODRONES** is a research project focused on the simulation-based design and optimization of bio-inspired autonomous underwater gliders (AUGs).
+
+This repository acts as the **central entry point and coordination hub** of the project.
+
 The project integrates:
 
-- Physics-based hydrodynamic modeling (RANS / LES / potential flow)
+- Physics-based and reduced-order hydrodynamic modeling (RANS / potential flow)
 - Multi-fidelity surrogate modeling
 - Design-space dimensionality reduction (PME, PD-PME, PI-PME)
 - Adaptive sampling and optimization strategies
 - High-performance computing workflows
 
-The primary application case is the development and optimization of manta-inspired underwater glider configurations.
+The primary application case is the development and optimization of **bio-inspired underwater glider configurations**.
 
 ---
 
-## Project Structure
+## 🌐 Project Links
 
-This repository serves as the **main project index and coordination hub**.
+- 🌍 **Project Website**  
+  https://sites.google.com/inm.cnr.it/biodrones
+
+- 📚 **Zenodo Community (data, datasets, and releases)**  
+  https://zenodo.org/communities/biodrones/
+
+---
+
+## 🧩 Project Structure
 
 All project components are organized as dedicated repositories within the  
-**MAORG-CNR-INM** organization.
+**cnr-inm-mao** organization.
 
 ### Core Repositories
 
-- 🌐 **Project Website**  
-  `biodrones-site`  
-  (Public project website, deliverables, publications, presentations)
-
-- 🐋 **Manta Parametrization Tools**  
-  `biodrones-manta`  
-  Geometry generation, STL tools, CAD-related workflows
-
-- ⚙️ **Optimization Framework**  
-  `biodrones-optimization`  
-  Surrogate-based optimization, adaptive sampling, multi-fidelity strategies
-
-- 📦 **Data & Results (restricted)**  
-  `biodrones-data`  
-  CFD databases, simulation outputs, processed datasets
+- 🔧 **Software**  
+  `pme-toolkit`  
+  Design-space dimensionality reduction framework (PME, PI-PME, PD-PME)
 
 ---
 
-## Deliverables
+### 🚧 Planned Repositories
 
-Official project deliverables are available through the project website repository.
+- 🐋 **Manta Parametrization Tools**  
+  `sgm`  
+  Shape generation and geometric modeling tools (CAD, STL workflows)
+
+- ⚙️ **Optimization Framework**  
+  `samoa`  
+  Surrogate-based adaptive multi-fidelity optimization framework
+
+---
+
+## 🔧 Software Developed within BIODRONES
+
+The project contributes to the development of advanced computational tools for simulation-based design optimization:
+
+- **PME-toolkit**  
+  Open-source framework for design-space dimensionality reduction  
+  🔗 https://github.com/cnr-inm-mao/pme-toolkit  
+  📦 Available on [PyPI](https://pypi.org/project/pme-toolkit/) 
+  📄 Submitted to JOSS
+
+---
+
+## 📦 Deliverables
+
+Official project deliverables are available through the project website.
 
 Main categories include:
 
@@ -59,7 +82,16 @@ Main categories include:
 
 ---
 
-## Scientific Outputs
+## 📊 Data Availability
+
+Simulation data, datasets, and processed results are released through the  
+**BIODRONES Zenodo community**:
+
+https://zenodo.org/communities/biodrones/
+
+---
+
+## 📖 Scientific Outputs
 
 The project contributes to research in:
 
@@ -69,11 +101,11 @@ The project contributes to research in:
 - Bio-inspired marine vehicle design
 - Explainable optimization methodologies
 
-Publications are listed in the project website repository.
+Publications are collected and curated in the project website and Zenodo community.
 
 ---
 
-## High-Performance Computing
+## 💻 High-Performance Computing
 
 Large-scale CFD simulations are performed on HPC infrastructures, including:
 
@@ -84,41 +116,30 @@ Automation pipelines integrate OpenFOAM-based solvers with surrogate modeling wo
 
 ---
 
-## Governance
+## 🏛️ Governance
 
 BIODRONES is developed within the  
-**MAORG-CNR-INM** organization.
+**cnr-inm-mao** organization.
 
-Repository structure:
-
-MAORG-CNR-INM
-
-├── BIODRONES (this repository)
-
-├── biodrones-site
-
-├── biodrones-manta
-
-├── biodrones-optimization
-
-├── biodrones-data
-
+    cnr-inm-mao
+    ├── biodrones (this repository)
+    ├── pme-toolkit
+    ├── sgm (planned)
+    ├── samoa (planned)
 
 ---
 
-## Contact
+## 🤝 Contact
 
 For scientific collaboration or project information:
 
-Matteo Diez
+**Matteo Diez**  
 CNR-INM – Institute of Marine Engineering  
-Rome, Italy
+Rome, Italy  
+📧 matteo.diez@cnr.it  
 
 ---
 
-## License
+## 📄 License
 
 Unless otherwise specified in sub-repositories, licensing is defined at repository level.
-
-
-
