@@ -1,5 +1,5 @@
 # BIODRONES  
-**Bio-inspired Design and Optimization of Underwater Gliders**
+**Biomimetic and Innovative Optimized hydrodynamic concepts of high-efficiency underwater gliding DRONES for ocean research**
 
 ---
 
