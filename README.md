@@ -143,3 +143,25 @@ Rome, Italy
 ## 📄 License
 
 Unless otherwise specified in sub-repositories, licensing is defined at repository level.
+
+---
+
+## 🙏 Acknowledgments
+
+CNR-INM is grateful to the Italian Ministry of University and Research (MUR) through the PRIN 2022 program, project **BIODRONES** (20227JNM52 – CUP B53D23005560006).
+
+The authors also acknowledge the CINECA award under the ISCRA-B grant **HP10BCZZBF** and ISCRA-C grant **HP10CJM3DH**, for the availability of high-performance computing resources and technical support.
+
+---
+
+## 💰 Funding
+
+<p align="center">
+  <img src="funding.png" alt="PRIN 2022" width="750"/>
+</p>
+
+<p align="center">
+  <b>PRIN 2022 – Project BIODRONES</b><br>
+  Project Code: 20227JNM52<br>
+  CUP: B53D23005560006
+</p>
