@@ -64,7 +64,6 @@ The project contributes to the development of advanced computational tools for s
   Open-source framework for design-space dimensionality reduction  
   🔗 https://github.com/cnr-inm-mao/pme-toolkit  
   📦 Available on PyPI https://pypi.org/project/pme-toolkit/
-  
   📄 Submitted to JOSS
 
 ---
